@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment3.WelcomeController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="184.0" layoutY="42.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Welcome" textAlignment="CENTER" textFill="#39c3a2">
+         <font>
+            <Font name="Curlz MT" size="64.0" />
+         </font>
+         <effect>
+            <Glow level="0.5" />
+         </effect>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="195.0" layoutY="140.0" prefHeight="116.0" prefWidth="600.0" text="Scrabble" textFill="#f52727">
+         <font>
+            <Font name="Brush Script MT Italic" size="72.0" />
+         </font>
+         <effect>
+            <Glow level="0.62" />
+         </effect>
+      </Label>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="167.0" layoutY="218.0" mnemonicParsing="false" onAction="#startGame" prefHeight="105.0" prefWidth="642.0" style="-fx-background-color: black;" text="Start Game" textFill="#27ff3d">
+         <font>
+            <Font name="Curlz MT" size="48.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Button>
+      <Label alignment="BOTTOM_RIGHT" layoutX="490.0" layoutY="369.0" prefHeight="56.0" prefWidth="600.0" text="By Mohpreet Kaur" textFill="#475fff">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</VBox>
